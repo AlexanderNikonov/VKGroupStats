@@ -375,12 +375,12 @@ class VKGroupStats
             sleep(10);
             echo "Parse user info start...." . PHP_EOL;
         }
-        $this->infoUsersPosts();
-        if ($this->showLog) {
-            echo "Parse user info DONE...." . PHP_EOL;
-            sleep(10);
-            echo "Parse post likes start...." . PHP_EOL;
-        }
+        //$this->infoUsersPosts();
+        //if ($this->showLog) {
+        //    echo "Parse user info DONE...." . PHP_EOL;
+        //    sleep(10);
+        //    echo "Parse post likes start...." . PHP_EOL;
+        //}
         $this->getPostLikes();
         if ($this->showLog) {
             echo "Parse post likes DONE...." . PHP_EOL;
